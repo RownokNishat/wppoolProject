@@ -3,12 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WPPOOL</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
 
     <!-- chart js script  -->
@@ -25,13 +22,8 @@
           <div id="fixed-div" class="container mx-auto navbarWithHero py-[1%]">
             <div class="flex justify-between items-center px-[1%]">
               <div class="flex items-center gap-2">
-                <img
-                  class="w-12 h-8 sm:w-16 sm:h-10"
-                  src="./images/wppoolLogo.png"
-                />
-                <p
-                  class="text-3xl md:text-4xl tracking-wider md:tracking-widest"
-                >
+                <img class="w-12 h-8 sm:w-16 sm:h-10" src="./images/wppoolLogo.png" />
+                <p class="text-3xl md:text-4xl tracking-wider md:tracking-widest">
                   <span class="font-[700]">WP</span>POOl
                 </p>
               </div>
@@ -44,18 +36,12 @@
                   <i class="fa-solid fa-share-nodes text-xl"></i>
                 </div>
 
-                <button
-                  id="navDownload"
-                  class="hidden sm:block px-4 py-4 navbarDownButtonWithHero rounded-[124px]"
-                >
+                <button id="navDownload" class="hidden sm:block px-4 py-4 navbarDownButtonWithHero rounded-[124px]">
                   Download the 2024 Report
                 </button>
 
                 <div class="relative">
-                  <i
-                    id="menuButton"
-                    class="fa-solid fa-bars px-2 navbarMenuWithHero fa-2x"
-                  ></i>
+                  <i id="menuButton" class="fa-solid fa-bars px-2 navbarMenuWithHero fa-2x"></i>
                   <div
                     id="menuList"
                     class="hidden absolute top-[-1rem] right-1 bg-white w-[300px] sm:w-[400px] shadow-lg z-100 px-4 py-4 rounded-lg"
@@ -63,22 +49,15 @@
                     <div class="flex gap-2 justify-between">
                       <div class="flex gap-2">
                         <div class="block sm:hidden flex items-center gap-2">
-                          <img
-                            class="w-12 h-8 sm:w-16 sm:h-10"
-                            src="./images/wppoolLogo.png"
-                          />
-                          <p
-                            class="text-3xl text-black md:text-4xl tracking-wider md:tracking-widest"
-                          >
+                          <img class="w-12 h-8 sm:w-16 sm:h-10" src="./images/wppoolLogo.png" />
+                          <p class="text-3xl text-black md:text-4xl tracking-wider md:tracking-widest">
                             <span class="font-[700]">WP</span>POOl
                           </p>
                         </div>
                         <div
                           class="hidden sm:block px-4 py-3 bg-[#AFCD80] rounded-full flex items-center justify-center"
                         >
-                          <i
-                            class="fa-solid fa-share-nodes text-2xl text-white"
-                          ></i>
+                          <i class="fa-solid fa-share-nodes text-2xl text-white"></i>
                         </div>
 
                         <button
@@ -94,44 +73,28 @@
                     </div>
                     <ul class="p-4 text-black">
                       <li class="py-2 px-4 hover:bg-gray-200">
-                        <a href="#chart" onclick="handleMenuClose()">
-                          The WPPOOL Index</a
-                        >
+                        <a href="#chart" onclick="handleMenuClose()"> The WPPOOL Index</a>
                       </li>
                       <li class="py-2 px-4 hover:bg-gray-200">
-                        <a href="#company" onclick="handleMenuClose()"
-                          >All Companies</a
-                        >
+                        <a href="#company" onclick="handleMenuClose()">All Companies</a>
                       </li>
                       <li class="py-2 px-4 hover:bg-gray-200">
-                        <a href="#future" onclick="handleMenuClose()">
-                          Potential Future Listings
-                        </a>
+                        <a href="#future" onclick="handleMenuClose()"> Potential Future Listings </a>
                       </li>
                       <li class="py-2 px-4 hover:bg-gray-200">
-                        <a href="#swap" onclick="handleMenuClose()"
-                          >State Of USA</a
-                        >
+                        <a href="#swap" onclick="handleMenuClose()">State Of USA</a>
                       </li>
                       <li class="py-2 px-4 hover:bg-gray-200">
-                        <a href="#story" onclick="handleMenuClose()">
-                          Stories & Ideas</a
-                        >
+                        <a href="#story" onclick="handleMenuClose()"> Stories & Ideas</a>
                       </li>
                       <li class="py-2 px-4 hover:bg-gray-200">
-                        <a href="#aboutUs" onclick="handleMenuClose()"
-                          >About WPPOOL
-                        </a>
+                        <a href="#aboutUs" onclick="handleMenuClose()">About WPPOOL </a>
                       </li>
                       <li class="py-2 px-4 hover:bg-gray-200">
-                        <a href="#portfolio" onclick="handleMenuClose()">
-                          WPPOOL Portfolio Companies</a
-                        >
+                        <a href="#portfolio" onclick="handleMenuClose()"> WPPOOL Portfolio Companies</a>
                       </li>
                       <li class="py-2 px-4 hover:bg-gray-200 text-blue-600">
-                        <a href="#footer" onclick="handleMenuClose()">
-                          Visit WPPOOL</a
-                        >
+                        <a href="#footer" onclick="handleMenuClose()"> Visit WPPOOL</a>
                       </li>
                     </ul>
                   </div>
@@ -141,76 +104,43 @@
           </div>
         </div>
 
-        <div
-          id="hero-div"
-          class="relative mx-auto px-[3%] py-[8%] bg-[#2042B6]"
-        >
+        <div id="hero-div" class="relative mx-auto px-[3%] py-[8%] bg-[#2042B6]">
           <div class="flex flex-col-reverse lg:relative">
             <div class="lg:absolute lg:bottom-0 lg:left-0">
-              <div
-                class="grid grid-cols-2 lg:flex lg:flex-col gap-10 justify-start z-10"
-              >
+              <div class="grid grid-cols-2 lg:flex lg:flex-col gap-10 justify-start z-10">
                 <div class="">
                   <h1 class="text-3xl font-[Nantes] font-bold">60</h1>
-                  <p
-                    class="text-lg font-[Neue Haas Unica W1G] font-normal text-#CDCDCD no-wrap"
-                  >
-                    Companies
-                  </p>
+                  <p class="text-lg font-[Neue Haas Unica W1G] font-normal text-#CDCDCD no-wrap">Companies</p>
                 </div>
                 <div class="">
                   <h1 class="text-3xl font-[Nantes] font-bold">$100B</h1>
-                  <p
-                    class="text-lg font-[Neue Haas Unica W1G] font-normal text-#CDCDCD no-wrap"
-                  >
-                    Market cap
-                  </p>
+                  <p class="text-lg font-[Neue Haas Unica W1G] font-normal text-#CDCDCD no-wrap">Market cap</p>
                 </div>
                 <div class="">
                   <h1 class="text-3xl font-[Nantes] font-bold">3.5x</h1>
-                  <p
-                    class="text-lg font-[Neue Haas Unica W1G] font-normal text-#CDCDCD no-wrap"
-                  >
-                    Revenue Multiple
-                  </p>
+                  <p class="text-lg font-[Neue Haas Unica W1G] font-normal text-#CDCDCD no-wrap">Revenue Multiple</p>
                 </div>
                 <div class="">
                   <h1 class="text-3xl font-[Nantes] font-bold">60%</h1>
-                  <p
-                    class="text-lg font-[Neue Haas Unica W1G] font-normal text-#CDCDCD no-wrap"
-                  >
+                  <p class="text-lg font-[Neue Haas Unica W1G] font-normal text-#CDCDCD no-wrap">
                     LTM avg. revenue growth rate
                   </p>
                 </div>
               </div>
             </div>
-            <div
-              onclick="scrollToBottom()"
-              class="hidden lg:block lg:absolute lg:bottom-0 lg:right-20"
-            >
+            <div onclick="scrollToBottom()" class="hidden lg:block lg:absolute lg:bottom-0 lg:right-20">
               <img src="./images/scrollDown.png" />
             </div>
-            <div
-              class="w-full flex justify-center items-center pt-12 sm:pt-0 pb-16"
-            >
+            <div class="w-full flex justify-center items-center pt-12 sm:pt-0 pb-16">
               <div class="flex justify-center items-center">
-                <div
-                  class="svg-container w-60 h-72 sm:w-72 sm:h-80 md:w-[520px] md:h-[520px] relative"
-                ></div>
-                <div
-                  class="absolute w-60 h-60 sm:w-72 sm:h-60 md:w-[500px] md:h-[500px] rectBox"
-                ></div>
+                <div class="svg-container w-60 h-72 sm:w-72 sm:h-80 md:w-[520px] md:h-[520px] relative"></div>
+                <div class="absolute w-60 h-60 sm:w-72 sm:h-60 md:w-[500px] md:h-[500px] rectBox"></div>
                 <div class="absolute z-10">
-                  <h1
-                    class="font-[Nantes] text-5xl lg:text-[75px] font-normal text-white text-center tracking-widest"
-                  >
+                  <h1 class="font-[Nantes] text-5xl lg:text-[75px] font-normal text-white text-center tracking-widest">
                     The WPPOOL Index
                   </h1>
-                  <p
-                    class="p-4 md:pt-4 md:px-12 font-[Messina Sans] text-xl tracking-widest text-center"
-                  >
-                    Monitor the performance of emerging, publicly traded,
-                    financial technology companies
+                  <p class="p-4 md:pt-4 md:px-12 font-[Messina Sans] text-xl tracking-widest text-center">
+                    Monitor the performance of emerging, publicly traded, financial technology companies
                   </p>
                 </div>
               </div>
@@ -225,33 +155,23 @@
       <div class="p-8 bg-white shadow-lg">
         <div class="flex flex-col lg:flex-row gap-4">
           <div class="lg:w-[200px] h-auto bg-[#EFF3F6] rounded-lg p-4">
-            <button
-              class="p-3 mx-auto bg-[#2042B6] w-[98%] rounded-lg text-white flex justify-between items-center"
-            >
+            <button class="p-3 mx-auto bg-[#2042B6] w-[98%] rounded-lg text-white flex justify-between items-center">
               <p>The Index</p>
               <p>-</p>
             </button>
-            <button
-              class="p-3 mx-auto w-[98%] rounded-lg text-[#647888] flex justify-between items-center"
-            >
+            <button class="p-3 mx-auto w-[98%] rounded-lg text-[#647888] flex justify-between items-center">
               <p>The Index Two</p>
               <p>+</p>
             </button>
-            <button
-              class="p-3 mx-auto w-[98%] rounded-lg text-[#647888] flex justify-between items-center"
-            >
+            <button class="p-3 mx-auto w-[98%] rounded-lg text-[#647888] flex justify-between items-center">
               <p>The Index Three</p>
               <p>+</p>
             </button>
-            <button
-              class="p-3 mx-auto w-[98%] rounded-lg text-[#647888] flex justify-between items-center"
-            >
+            <button class="p-3 mx-auto w-[98%] rounded-lg text-[#647888] flex justify-between items-center">
               <p>The Index Four</p>
               <p>+</p>
             </button>
-            <button
-              class="p-3 mx-auto w-[98%] rounded-lg text-[#647888] flex justify-between items-center"
-            >
+            <button class="p-3 mx-auto w-[98%] rounded-lg text-[#647888] flex justify-between items-center">
               <p>The Index Five</p>
               <p>+</p>
             </button>
@@ -259,47 +179,33 @@
           <div class="flex-1">
             <div class="flex items-center mb-4">
               <img src="./images/Union.png" class="w-8 h-8" />
-              <h1 class="ml-2 font-[Nantes] text-3xl font-normal">
-                The WPPOOL Index
-              </h1>
+              <h1 class="ml-2 font-[Nantes] text-3xl font-normal">The WPPOOL Index</h1>
             </div>
-            <div
-              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-4 w-full"
-            >
-              <div
-                class="flex justify-between items-center rounded-lg p-4 bg-gray-200"
-              >
-                <p class="text-2xl">+66.2%</p>
-                <div class="pe-1 border-e-[4px] border-yellow-500">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-4 w-full">
+              <div class="flex justify-between items-center rounded-lg p-4 bg-gray-200">
+                <p class="text-2xl text-[#4F81BC]">+66.2%</p>
+                <div class="pe-1 border-e-[4px] border-[#4F81BC]">
                   <p>WPOOL</p>
                   <p>Index</p>
                 </div>
               </div>
 
-              <div
-                class="flex justify-between items-center rounded-lg p-4 bg-gray-200"
-              >
-                <p class="text-2xl">+26.6%</p>
-                <div class="pe-1 border-e-[4px] border-yellow-500">
+              <div class="flex justify-between items-center rounded-lg p-4 bg-gray-200">
+                <p class="text-2xl text-[#C0504E]">+26.6%</p>
+                <div class="pe-1 border-e-[4px] border-[#C0504E]">
                   <p>Google</p>
                   <p>Index</p>
                 </div>
               </div>
-              <div
-                class="flex justify-between items-center rounded-lg p-4 bg-gray-200"
-              >
-                <p class="text-2xl">+34.1%</p>
-                <div
-                  class="pe-2 border-e-[4px] border-yellow-500 flex h-full items-center"
-                >
+              <div class="flex justify-between items-center rounded-lg p-4 bg-gray-200">
+                <p class="text-2xl text-[#9BBB58]">+34.1%</p>
+                <div class="pe-2 border-e-[4px] border-[#9BBB58] flex h-full items-center">
                   <p>Microsoft</p>
                 </div>
               </div>
-              <div
-                class="flex justify-between items-center rounded-lg p-4 bg-gray-200"
-              >
-                <p class="text-2xl">+17%</p>
-                <div class="pe-1 border-e-[4px] border-yellow-500">
+              <div class="flex justify-between items-center rounded-lg p-4 bg-gray-200">
+                <p class="text-2xl text-[#7CD9CC]">+17%</p>
+                <div class="pe-1 border-e-[4px] border-[#7CD9CC]">
                   <p>Twitter</p>
                   <p>Index</p>
                 </div>
@@ -335,11 +241,7 @@
                 <div class="bg-[#EFF3F6] flex gap-5 px-6 py-1 rounded-full">
                   <button>1Y</button>
                   <button>YTD</button>
-                  <button
-                    class="bg-[#2042B6] text-white rounded-full px-3 py-1 selectedButtonDropShadow"
-                  >
-                    6M
-                  </button>
+                  <button class="bg-[#2042B6] text-white rounded-full px-3 py-1 selectedButtonDropShadow">6M</button>
                   <button>1M</button>
                   <button>1W</button>
                 </div>
@@ -353,10 +255,7 @@
     </div>
 
     <!-- company -->
-    <div
-      id="company"
-      class="container [96%] mx-auto p-[2%] bg-white rounded-lg my-16"
-    >
+    <div id="company" class="container [96%] mx-auto p-[2%] bg-white rounded-lg my-16">
       <div class="flex flex-col sm:flex-row justify-between">
         <p class="font-normal text-4xl text-[#191618]">All Companies</p>
 
@@ -407,21 +306,13 @@
     <!-- future listing -->
     <div id="future" class="container w-[90%] mx-auto my-16">
       <div>
-        <h1
-          class="font-normal text-3xl md:text-5xl leading-10 md:leading-[57.6px]"
-        >
-          Potential Future Listings
-        </h1>
+        <h1 class="font-normal text-3xl md:text-5xl leading-10 md:leading-[57.6px]">Potential Future Listings</h1>
         <p class="font-[350] text-base leading-[25.6px] w-full md:w-3/4 mt-2">
-          Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-          vulputate libero et velit interdum, ac aliquet odio mattis. Class
-          aptent taciti sociosqu ad litora torquent per conubia nostra, per
-          inceptos himenaeos.
+          Porem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet
+          odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
         </p>
       </div>
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5 my-5"
-      >
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5 my-5">
         <div class="bg-white rounded-[6px] flex justify-center items-center">
           <img class="px-10 py-8" src="./images/Group 227.png" alt="" />
         </div>
@@ -471,8 +362,7 @@
           <div class="dropdown-icon"></div>
         </div>
         <p class="font-[350] text-base leading-[25.6px] w-3/4 mt-2">
-          Click through the slides or download the report to view natively on
-          your device.
+          Click through the slides or download the report to view natively on your device.
         </p>
       </div>
       <div id="carousel" class="carousel-container my-1 lg:my-8">
@@ -483,32 +373,20 @@
           ></div>
           <div class="rectBox w-[600px] h-[700px] absolute"></div> -->
 
-          <img
-            class="carousel-image absolute z-10"
-            src="./images/state2.png"
-            alt=""
-          />
+          <img class="carousel-image absolute z-10" src="./images/state2.png" alt="" />
         </div>
         <div class="partial">
           <img src="./images/state3.png" alt="Image 3" class="carousel-image" />
         </div>
       </div>
 
-      <div
-        class="flex flex-col md:flex-row justify-between items-center px-[2%]"
-      >
+      <div class="flex flex-col md:flex-row justify-between items-center px-[2%]">
         <div class="flex flex-col md:flex-row gap-5 items-center px-[2%]">
           <div class="flex gap-3">
-            <button
-              id="prev"
-              class="next-button bg-white px-3 py-2 rounded-full"
-            >
+            <button id="prev" class="next-button bg-white px-3 py-2 rounded-full">
               <i class="fa-solid fa-arrow-left text-blue-600"></i>
             </button>
-            <button
-              id="next"
-              class="next-button bg-white px-3 py-2 rounded-full"
-            >
+            <button id="next" class="next-button bg-white px-3 py-2 rounded-full">
               <i class="fa-solid fa-arrow-right text-blue-600"></i>
             </button>
           </div>
@@ -529,9 +407,7 @@
           </div>
         </div>
 
-        <button
-          class="rounded-full px-4 py-2 w-56 h-12 bg-[#2042B6] text-center text-white"
-        >
+        <button class="rounded-full px-4 py-2 w-56 h-12 bg-[#2042B6] text-center text-white">
           Download the 2023 Report
         </button>
       </div>
@@ -539,150 +415,74 @@
 
     <!-- stories and ideas -->
     <div id="story" class="container w-[90%] mx-auto my-16">
-      <h1 class="text-[#191618] text-5xl font-normal leading-[3rem]">
-        Stories & Ideas
-      </h1>
-      <h3 class="text-[#7D7F81] text-3xl font-normal leading-[3rem] my-3">
-        The latest news and updates
-      </h3>
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-20 pt-24"
-      >
+      <h1 class="text-[#191618] text-5xl font-normal leading-[3rem]">Stories & Ideas</h1>
+      <h3 class="text-[#7D7F81] text-3xl font-normal leading-[3rem] my-3">The latest news and updates</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-20 pt-24">
         <div class="bg-white relative rounded-lg">
-          <img
-            class="absolute bottom-40 left-4"
-            src="./images/storiesAndIdea1.png"
-          />
+          <img class="absolute bottom-40 left-4" src="./images/storiesAndIdea1.png" />
           <div class="pt-24 ps-8 pb-8 pe-8">
             <p class="text-[#2042B6]">By: Sahabuddin Sagor</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia.
-            </p>
-            <p
-              class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4"
-            >
-              Read More
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia.</p>
+            <p class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4">Read More</p>
           </div>
         </div>
         <div class="bg-white relative rounded-lg">
-          <img
-            class="absolute bottom-40 left-4"
-            src="./images/storiesAndIdea2.png"
-          />
+          <img class="absolute bottom-40 left-4" src="./images/storiesAndIdea2.png" />
           <div class="pt-24 ps-8 pb-8 pe-8">
             <p class="text-[#2042B6]">By: Sahabuddin Sagor</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia.
-            </p>
-            <p
-              class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4"
-            >
-              Read More
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia.</p>
+            <p class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4">Read More</p>
           </div>
         </div>
         <div class="bg-white relative rounded-lg">
-          <img
-            class="absolute bottom-40 left-4"
-            src="./images/storiesAndIdea1.png"
-          />
+          <img class="absolute bottom-40 left-4" src="./images/storiesAndIdea1.png" />
           <div class="pt-24 ps-8 pb-8 pe-8">
             <p class="text-[#2042B6]">By: Sahabuddin Sagor</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia.
-            </p>
-            <p
-              class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4"
-            >
-              Read More
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia.</p>
+            <p class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4">Read More</p>
           </div>
         </div>
         <div class="bg-white relative rounded-lg">
-          <img
-            class="absolute bottom-40 left-4"
-            src="./images/storiesAndIdea1.png"
-          />
+          <img class="absolute bottom-40 left-4" src="./images/storiesAndIdea1.png" />
           <div class="pt-24 ps-8 pb-8 pe-8">
             <p class="text-[#2042B6]">By: Sahabuddin Sagor</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia.
-            </p>
-            <p
-              class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4"
-            >
-              Read More
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia.</p>
+            <p class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4">Read More</p>
           </div>
         </div>
         <div class="bg-white relative rounded-lg">
-          <img
-            class="absolute bottom-40 left-4"
-            src="./images/storiesAndIdea2.png"
-          />
+          <img class="absolute bottom-40 left-4" src="./images/storiesAndIdea2.png" />
           <div class="pt-24 ps-8 pb-8 pe-8">
             <p class="text-[#2042B6]">By: Sahabuddin Sagor</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia.
-            </p>
-            <p
-              class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4"
-            >
-              Read More
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia.</p>
+            <p class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4">Read More</p>
           </div>
         </div>
         <div class="bg-white relative rounded-lg">
-          <img
-            class="absolute bottom-40 left-4"
-            src="./images/storiesAndIdea1.png"
-          />
+          <img class="absolute bottom-40 left-4" src="./images/storiesAndIdea1.png" />
           <div class="pt-24 ps-8 pb-8 pe-8">
             <p class="text-[#2042B6]">By: Sahabuddin Sagor</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              mollitia.
-            </p>
-            <p
-              class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4"
-            >
-              Read More
-            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia.</p>
+            <p class="px-3 py-2 rounded-full bg-[#2042B6] text-white text-center w-32 mt-4">Read More</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div
-      class="container opacity-50 mx-auto bg-[#2042B6] border-solid border-[#2042B6] w-[90%] h-[0.5px] my-16"
-    ></div>
+    <div class="container opacity-50 mx-auto bg-[#2042B6] border-solid border-[#2042B6] w-[90%] h-[0.5px] my-16"></div>
 
     <!-- about us -->
     <div id="aboutUs" class="w-[90%] container mx-auto my-16 rounded-full">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-2 bg-white rounded-lg">
         <div class="flex flex-col justify-center px-[6%] py-[4%]">
-          <h1 class="text-[#191618] text-5xl font-normal leading-[3rem]">
-            About WPPOOL
-          </h1>
-          <h3 class="text-[#7D7F81] text-3xl font-normal leading-[3rem]">
-            Investing in wppool for over 50 years
-          </h3>
+          <h1 class="text-[#191618] text-5xl font-normal leading-[3rem]">About WPPOOL</h1>
+          <h3 class="text-[#7D7F81] text-3xl font-normal leading-[3rem]">Investing in wppool for over 50 years</h3>
           <p class="text-base text-[#191618] leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia,molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborumnumquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentiumoptio, eaque rerum! Provident similique
-            accusantium nemo autem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi
+            repudiandae consequuntur voluptatum laborumnumquam blanditiis harum quisquam eius sed odit fugiat iusto fuga
+            praesentiumoptio, eaque rerum! Provident similique accusantium nemo autem.
           </p>
-          <button
-            class="px-3 py-2 rounded-full bg-[#2042B6] selectedButtonDropShadow text-center text-white w-40 mt-4"
-          >
+          <button class="px-3 py-2 rounded-full bg-[#2042B6] selectedButtonDropShadow text-center text-white w-40 mt-4">
             Contact WPPOOL
           </button>
         </div>
@@ -692,18 +492,12 @@
       </div>
     </div>
 
-    <div
-      class="container opacity-50 mx-auto bg-[#2042B6] border-solid border-[#2042B6] w-[90%] h-[0.5px] my-16"
-    ></div>
+    <div class="container opacity-50 mx-auto bg-[#2042B6] border-solid border-[#2042B6] w-[90%] h-[0.5px] my-16"></div>
 
     <!-- portfolio companies -->
     <div id="portfolio" class="container w-[90%] mx-auto my-16">
-      <h2 class="text-5xl font-normal leading-[67.63px] my-5">
-        Selected WPPOOL Portfolio Companies
-      </h2>
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5 my-8"
-      >
+      <h2 class="text-5xl font-normal leading-[67.63px] my-5">Selected WPPOOL Portfolio Companies</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-5 my-8">
         <div class="bg-white rounded-[6px] flex justify-center items-center">
           <img class="px-10 py-8" src="./images/companies1.png" alt="" />
         </div>
@@ -769,19 +563,11 @@
     </div>
 
     <!-- footer-->
-    <footer
-      class="container [90%] mx-auto p-[2%] bg-[#E6E6E6] my-16 rounded-lg"
-    >
-      <div
-        id="footer"
-        class="grid grid-cols-1 md:grid-cols-2 gap-2 mx-[2%] rounded-lg"
-      >
+    <footer class="container [90%] mx-auto p-[2%] bg-[#E6E6E6] my-16 rounded-lg">
+      <div id="footer" class="grid grid-cols-1 md:grid-cols-2 gap-2 mx-[2%] rounded-lg">
         <div class="w-[90%] me-auto">
-          <h1
-            class="font-[400] text-xl md:text-4xl leading-[3rem] font-[Nantes]"
-          >
-            Experience remarkable WordPress products with a new level of power,
-            beauty, and human-centered designs.
+          <h1 class="font-[400] text-xl md:text-4xl leading-[3rem] font-[Nantes]">
+            Experience remarkable WordPress products with a new level of power, beauty, and human-centered designs.
           </h1>
         </div>
         <div class="flex">
@@ -823,21 +609,15 @@
           </div>
         </div>
       </div>
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 gap-2 mx-[2%] my-4 rounded-lg"
-      >
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-2 mx-[2%] my-4 rounded-lg">
         <div class="w-[90%] me-auto">
-          <h1 class="text-sm font-bold text-[#9FA0A1]">
-            ©2024 Terms of Use Privacy Policy
-          </h1>
+          <h1 class="text-sm font-bold text-[#9FA0A1]">©2024 Terms of Use Privacy Policy</h1>
           <h1 class="font-[400] text-lg leading-[2rem] font-[Nantes] mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-            mollitia,molestiae quas vel sint commodi repudiandae consequuntur
-            voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-            fugiat iusto fuga praesentium optio, eaque rerum! Provident
-            similique accusantium nemo autem. Veritatis obcaecati tenetur iure
-            eius earum ut molestias architecto voluptate aliquam nihil, eveniet
-            aliquid culpa officia aut! Impedit sit sunt quaera
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi
+            repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
+            fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur
+            iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! Impedit
+            sit sunt quaera
           </h1>
         </div>
         <div class="flex">
